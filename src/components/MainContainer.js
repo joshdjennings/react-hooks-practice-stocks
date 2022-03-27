@@ -18,7 +18,7 @@ function MainContainer() {
 			<SearchBar />
 			<div className="row">
 				<div className="col-8">
-					<StockContainer />
+					<StockContainer stocks={stocks} />
 				</div>
 				<div className="col-4">
 					<PortfolioContainer
